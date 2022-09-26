@@ -39,3 +39,12 @@ li {
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+.link {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: 700;
+  color: blue;
+}

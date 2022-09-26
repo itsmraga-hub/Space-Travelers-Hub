@@ -1,5 +1,5 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => (
     <nav>
@@ -8,9 +8,9 @@ const Header = () => (
         <Link to="/" className="brand-logo">Space Travelers' Hub</Link>
       </div>
       <ul>
-        <li><Link to='/rockets'>Rockets</Link></li>
-        <li><Link to="/missions">Missions</Link></li>
-        <li><Link to="/profile">My Profile</Link></li>
+        <li><NavLink to="/rockets" className="link" activeClassName="active">Rockets</NavLink></li>
+        <li><NavLink to="/missions" className="link" activeClassName="active">Missions</NavLink></li>
+        <li><NavLink to="/my-profile" className="link" activeClassName="active">My Profile</NavLink></li>
       </ul>
     </nav>
   );
