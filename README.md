@@ -42,7 +42,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-- After setting up the project run `npm install` or `npm i` to install all the package dependencies needed by the app.
+- After setting up the project run `npm install` or `npm i` to install all the package dependencies needed by the react-redux app.
 
 ### Usage
 
