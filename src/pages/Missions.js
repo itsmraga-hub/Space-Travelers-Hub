@@ -26,10 +26,9 @@ const Missions = () => {
     <section className={style.MissionSection}>
       <ul className={style.MissionsContainer}>
         <li className={style.MissionsTitle}>
-          <h1>Mission</h1>
-          <p>Description</p>
-          <p>Status</p>
-          <p>Empty</p>
+          <h2 className={style.status}>Mission</h2>
+          <h2 className={style.status}>Description</h2>
+          <h2 className={style.status}>Status</h2>
         </li>
         {
         missions.map((mission) => {
