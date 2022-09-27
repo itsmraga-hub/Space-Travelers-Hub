@@ -5,10 +5,11 @@ import { fetchRockets } from '../redux/rocketsReducer';
 
 function Rockets() {
     const rockets = useSelector((state) => state.rockets.rockets);
+    console.log(rockets);
     const dispatch = useDispatch();
 
     useEffect(() => {
-            dispatch(fetchRockets());
+      dispatch(fetchRockets());
     }, []);
 
     return (

@@ -26,3 +26,30 @@
     height: 100%;
     padding: 1rem;
 }
+
+.reserved {
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #017bfe;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.reserve {
+    background-color: #1aa1b9;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+
+.cancel {
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: gray;
+    color: #fff;
+    font-size: 1.2rem;
+}

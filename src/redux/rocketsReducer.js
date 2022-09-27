@@ -23,7 +23,7 @@ const rocketsSlice = createSlice({
         },
         [fetchRockets.fulfilled]: (state, action) => {
             state.status = "succeeded";
-            state.rockets = state.rockets.concat(action.payload);
+            state.rockets = [...action.payload];
         },
         [fetchRockets.rejected]: (state, action) => {
             state.status = "failed";
