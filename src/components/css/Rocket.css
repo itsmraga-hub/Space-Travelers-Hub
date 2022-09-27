@@ -1,55 +1,55 @@
 .rocket-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .rocket-card img {
-    width: 50%;
-    height: 20rem;
-    object-fit: cover;
-    border-radius: 0.5rem;
+  width: 50%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .rocket-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
 }
 
 .reserved {
-    width: 12rem;
-    height: 4rem;
-    border: none;
-    border-radius: 0.2rem;
-    background-color: #017bfe;
-    color: #fff;
-    font-size: 1.2rem;
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #017bfe;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 .reserve {
-    background-color: #1aa1b9;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    width: fit-content;
+  background-color: #1aa1b9;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  width: fit-content;
 }
 
 .cancel {
-    width: 12rem;
-    height: 4rem;
-    border: none;
-    border-radius: 0.2rem;
-    background-color: gray;
-    color: #fff;
-    font-size: 1.2rem;
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: gray;
+  color: #fff;
+  font-size: 1.2rem;
 }

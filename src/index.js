@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import App from './App';
 import store from './redux/configureStore';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -14,7 +13,7 @@ root.render(
     <React.StrictMode>
       <BrowserRouter>
         <App />
-        </BrowserRouter>
-      </React.StrictMode>
+      </BrowserRouter>
+    </React.StrictMode>
   </Provider>,
 );
