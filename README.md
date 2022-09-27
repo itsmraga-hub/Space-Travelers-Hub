@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+![Microverse Logo ](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Space Travelers' Hub
 
-## Available Scripts
+> The application allows users to book rockets and join selected space missions working with real life data from the SpaceX API.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React.js
+- Redux.js
+- HTML
+- CSS
+- API's
+  - [SpaceX API](https://www)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo (if available)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Coming soon](https://)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+- Clone the project to your local computer.
+  - Open `cmd` and navigate to preferred directory to clone the project at.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - `git clone https://github.com/itsmraga-hub/Space-Travelers-Hub.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - `cd Space-Travelers-Hub`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - There you go. You are now inside the project. To get started keep reading below for tep to view the project locally in your brower.
 
-### `npm run eject`
+  - Cheers and Happy coding.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Code editor.
+- Basic coding skills.
+- Knowledge on JavaScript will be an added advantage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install
 
-## Learn More
+- After setting up the project run `npm install` or `npm i` to install all the package dependencies needed by the react-redux app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- To serve the project run
+  - `npm run build` - To build the project and create the `dist/` directory used.
+  - `npm run start` - To start the project on localhost and view it in browser.
 
-### Code Splitting
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `npm run test`
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub Pages
+- Netlify
 
-### `npm run build` fails to minify
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Jest javacript package provided by npm.
+- To get started with jest view [this article](https://jestjs.io/docs/getting-started).
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@William Raga](https://github.com/itsmraga-hub)
+- Twitter: [@William Raga](https://twitter.com/RagaMacharia)
+- LinkedIn: [@William Raga](https://linkedin.com/in/itsmraga-hub)
+
+👤 **Author2**
+
+- GitHub: [@nii darku](https://)
+- Twitter: [@nii darku](https://)
+- LinkedIn: [@nii darku]()
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- SpaceX API.
+- Microverse and the entire team.
+- Inspiration.
+- Learning/coding partner.
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
