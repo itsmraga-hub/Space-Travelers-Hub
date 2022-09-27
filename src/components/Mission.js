@@ -1,3 +1,5 @@
+import style from './css/Mission.module.css';
+
 const Mission = (props) => {
   const mission = props;
   const {
@@ -5,15 +7,17 @@ const Mission = (props) => {
   } = mission;
 
   return (
-    <li>
-      <h2>{ name }</h2>
-      <p>{ desc }</p>
-      <a rel="noreferrer" href="##">
-        {
+    <li className={style.Mission}>
+      <h2 className={style.Title}>{ name }</h2>
+      <p className={style.desc}>{ desc }</p>
+      <div data-id>
+        <a rel="noreferrer" href="##" className={`${isReserved ? style.reserved : ''} ${style.badge}`}>
+          {
         isReserved ? 'Active Member' : 'Not A Member'
       }
-      </a>
-      <button type="button" id={id} onClick={join}>
+        </a>
+      </div>
+      <button type="button" id={id} onClick={join} className={`${isReserved ? style.reserved : ''} ${style.btn}`}>
         {
           isReserved ? 'Leave Mission' : 'Join Mission'
         }
