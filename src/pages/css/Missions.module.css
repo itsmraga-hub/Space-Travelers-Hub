@@ -1,0 +1,19 @@
+.MissionSection {
+  width: 100%;
+  height: auto;
+}
+
+.MissionSection .MissionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.MissionsContainer .MissionsTitle {
+  display: flex;
+}
+
+.MissionsContainer li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+}

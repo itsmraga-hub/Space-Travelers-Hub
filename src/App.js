@@ -7,6 +7,7 @@ import Profile from './routes/Profile';
 
 import Header from './components/Header';
 import Rockets from './pages/Rockets';
+import Missions from './pages/Missions';
 
 function App() {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/rockets" element={<Rockets />} />
-        <Route exact path="missions" />
+        <Route exact path="missions" element={<Missions />} />
         <Route exact path="my-profile" element={<Profile />} />
       </Routes>
     </div>
