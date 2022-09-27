@@ -6,13 +6,15 @@
 .MissionSection {
   width: 100%;
   height: auto;
+  border-top: 1px solid #bbb;
+  padding-top: 1rem;
 }
 
 .MissionSection .MissionsContainer {
   list-style: none;
   display: flex;
   flex-direction: column;
-  border: 1px solid #bbb;
+  padding: 1em;
 }
 
 .MissionsContainer .MissionsTitle {

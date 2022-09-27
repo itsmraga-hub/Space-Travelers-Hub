@@ -9,10 +9,14 @@
 
 .Title {
   border-right: 1px #bbb solid;
+  padding: 0.1em;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .desc {
   border-right: 1px #bbb solid;
+  padding: 0.25rem 0.25rem 0.5em;
 }
 
 .Mission div {
@@ -31,6 +35,7 @@
   padding: 0.25em;
   font-weight: bold;
   text-transform: uppercase;
+  border-radius: 8px;
 }
 
 .btn {
@@ -39,6 +44,7 @@
   justify-self: center;
   padding: 0.5em;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .btn.reserved {
