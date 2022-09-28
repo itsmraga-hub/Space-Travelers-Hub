@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5023418-ea16-4fa3-8abf-d0f63317e385" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Space-Travelers-Hub.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/planet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MissionSpace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rocket.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/Mission.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/MissionSpace.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__snapshots__/Mission.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__snapshots__/MissionSpace.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/css/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/css/Mission.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/css/MissionSpace.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/css/Rocket.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Missions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Rockets.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/css/Missions.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/missions/missions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/rocketsReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/css/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rocket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rocket.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664352152677</updated>
-      <workItem from="1664352154525" duration="4149000" />
+      <workItem from="1664352154525" duration="4755000" />
     </task>
     <servers />
   </component>

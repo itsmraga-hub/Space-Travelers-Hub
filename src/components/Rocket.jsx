@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
@@ -7,10 +8,8 @@ import './css/Rocket.css';
 function Rocket({ rocket }) {
   const rockets = useSelector((state) => state.rockets.rockets);
   const {
-    // eslint-disable-next-line camelcase
     id, rocket_name, description, flickr_images,
   } = rocket;
-  // eslint-disable-next-line camelcase
   const [image] = useState(flickr_images[0]);
   const dispatch = useDispatch();
 
@@ -27,20 +26,16 @@ function Rocket({ rocket }) {
 
   return (
     <div className="rocket-card">
-      {/* eslint-disable-next-line camelcase */}
       <img src={image} alt={rocket_name} />
       <div className="rocket-info">
-        {/* eslint-disable-next-line camelcase */}
         <h2>{rocket_name}</h2>
         <>
           {reserved ? (<p className="reserve">Reserved</p>) : null}
           {description}
         </>
-        {/* eslint-disable-next-line react/prop-types */}
         {!rocket.reserved && (
         <button type="button" className="reserved" onClick={reserve}>Reserve Rocket</button>
         )}
-        {/* eslint-disable-next-line react/prop-types */}
         {rocket.reserved && (
         <button type="button" className="cancel" onClick={cancel}>Cancel Reservation</button>
         )}
@@ -55,6 +50,7 @@ Rocket.propTypes = {
     rocket_name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    reserved: PropTypes.bool.isRequired,
   }).isRequired,
 };
 
