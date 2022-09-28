@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Mission /> renders properly as expected 1`] = `
+<li
+  className="Mission"
+>
+  <p
+    className="Title"
+  >
+    SpaceX
+  </p>
+  <p
+    className="desc"
+  >
+    Lorem ipsum text generate
+  </p>
+  <div
+    data-id={true}
+  >
+    <a
+      className=" badge"
+      href="##"
+      rel="noreferrer"
+    >
+      Not A Member
+    </a>
+  </div>
+  <button
+    className=" btn"
+    id="56DFRE"
+    onClick={[Function]}
+    type="button"
+  >
+    Join Mission
+  </button>
+</li>
+`;
+
+exports[`<Mission /> renders properly as expected 2`] = `
+<li
+  className="Mission"
+>
+  <p
+    className="Title"
+  >
+    SpaceX
+  </p>
+  <p
+    className="desc"
+  >
+    Lorem ipsum text generate
+  </p>
+  <div
+    data-id={true}
+  >
+    <a
+      className=" badge"
+      href="##"
+      rel="noreferrer"
+    >
+      Not A Member
+    </a>
+  </div>
+  <button
+    className=" btn"
+    id="56DFRE"
+    onClick={[Function]}
+    type="button"
+  >
+    Join Mission
+  </button>
+</li>
+`;

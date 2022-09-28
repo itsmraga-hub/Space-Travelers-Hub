@@ -8,6 +8,7 @@ import Profile from './routes/Profile';
 import Header from './components/Header';
 import Rockets from './pages/Rockets';
 import Missions from './pages/Missions';
+import { fetchMissions } from './redux/missions/missions';
 
 function App() {
   const dispatch = useDispatch();
@@ -15,6 +16,10 @@ function App() {
   useEffect(() => {
     dispatch(fetchRockets());
   }, [dispatch]);
+
+  useEffect(() => {
+    dispatch(fetchMissions());
+  }, []);
 
   return (
     <div>

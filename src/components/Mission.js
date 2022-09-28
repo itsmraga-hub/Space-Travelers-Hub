@@ -8,7 +8,7 @@ const Mission = (props) => {
 
   return (
     <li className={style.Mission}>
-      <h2 className={style.Title}>{ name }</h2>
+      <p className={style.Title}>{ name }</p>
       <p className={style.desc}>{ desc }</p>
       <div data-id>
         <a rel="noreferrer" href="##" className={`${isReserved ? style.reserved : ''} ${style.badge}`}>

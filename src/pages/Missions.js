@@ -1,8 +1,7 @@
 /* eslint-disable camelcase */
 import { useSelector, useDispatch } from 'react-redux';
-import { useEffect } from 'react';
 
-import { fetchMissions, joinMission } from '../redux/missions/missions';
+import { joinMission } from '../redux/missions/missions';
 
 import Mission from '../components/Mission';
 
@@ -12,10 +11,6 @@ const Missions = () => {
   const missions = useSelector((state) => state.missions);
 
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchMissions());
-  }, []);
 
   const join = (e) => {
     e.preventDefault();

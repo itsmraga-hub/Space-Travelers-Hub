@@ -1,3 +1,14 @@
-.Header {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.MyMissions {
+  width: 40%;
+  margin-left: 1em;
+}
+
+.Missions {
+  list-style: none;
 }
