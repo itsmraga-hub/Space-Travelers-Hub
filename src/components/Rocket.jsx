@@ -32,10 +32,10 @@ function Rocket({ rocket }) {
       <div className="rocket-info">
         {/* eslint-disable-next-line camelcase */}
         <h2>{rocket_name}</h2>
-        <p>
+        <>
           {reserved ? (<p className="reserve">Reserved</p>) : null}
           {description}
-        </p>
+        </>
         {/* eslint-disable-next-line react/prop-types */}
         {!rocket.reserved && (
         <button type="button" className="reserved" onClick={reserve}>Reserve Rocket</button>
