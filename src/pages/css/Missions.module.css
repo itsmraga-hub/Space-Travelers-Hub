@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MissionSection {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #bbb;
+  padding-top: 1rem;
+}
+
+.MissionSection .MissionsContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.MissionsContainer .MissionsTitle {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MissionsContainer li {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+}
+
+.MissionsContainer li:nth-child(1) {
+  border: 1px solid #bbb;
+}
+
+.MissionsContainer li:nth-of-type(even) {
+  background-color: rgba(187, 187, 187, 0.295);
+}
+
+.status {
+  padding: 0.5rem;
+  border-right: 1px solid #bbb;
+}

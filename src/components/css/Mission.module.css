@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Mission {
+  border: 1px solid #bbb;
+}
+
+.Title {
+  border-right: 1px #bbb solid;
+  padding: 0.1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.desc {
+  border-right: 1px #bbb solid;
+  padding: 0.25rem 0.25rem 0.5em;
+}
+
+.Mission div {
+  height: 100%;
+  width: 100%;
+  border-right: 1px rgb(15, 15, 15) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(184, 179, 179);
+  padding: 0.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.btn {
+  align-self: center;
+  width: fit-content;
+  justify-self: center;
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn.reserved {
+  color: rgb(226, 36, 36);
+  border: 1px solid rgb(226, 36, 36);
+}
+
+.badge.reserved {
+  background-color: rgb(25, 178, 230);
+}

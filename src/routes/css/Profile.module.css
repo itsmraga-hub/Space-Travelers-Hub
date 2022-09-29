@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.MissionHeader {
+  margin-bottom: 2px;
+}
+
+.MyMissions {
+  width: 40%;
+  margin-left: 1em;
+}
+
+.Missions {
+  list-style: none;
+}

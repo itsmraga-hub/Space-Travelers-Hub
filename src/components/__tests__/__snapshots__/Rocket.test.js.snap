@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rocket /> renders properly as expected 1`] = `
+<div
+  className="rocket-card"
+>
+  <img
+    alt="SpaceX"
+    src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+  />
+  <div
+    className="rocket-info"
+  >
+    <h2>
+      SpaceX
+    </h2>
+    <p
+      className="reserve"
+    >
+      Not reserved
+    </p>
+    Lorem ipsum text generate
+    <div
+      className="rocket-buttons"
+    >
+      <button
+        className="reserved"
+        onClick={[Function]}
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Rocket /> renders properly as expected 2`] = `
+<div
+  className="rocket-card"
+>
+  <img
+    alt="SpaceX"
+    src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+  />
+  <div
+    className="rocket-info"
+  >
+    <h2>
+      SpaceX
+    </h2>
+    <p
+      className="reserve"
+    >
+      Not reserved
+    </p>
+    Lorem ipsum text generate
+    <div
+      className="rocket-buttons"
+    >
+      <button
+        className="reserved"
+        onClick={[Function]}
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
