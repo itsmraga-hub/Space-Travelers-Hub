@@ -1,57 +1,45 @@
 /* eslint-disable camelcase */
-import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useSelector, useDispatch } from 'react-redux';
-import { reserveRocket, cancelRocket } from '../redux/rocketsReducer';
 import './css/Rocket.css';
 
-function Rocket({ rocket }) {
-  const rockets = useSelector((state) => state.rockets.rockets);
-  const {
-    id, rocket_name, description, flickr_images,
-  } = rocket;
-  const [image] = useState(flickr_images[0]);
-  const dispatch = useDispatch();
-
-  const reserve = () => {
-    dispatch(reserveRocket(id));
-  };
-
-  const cancel = () => {
-    dispatch(cancelRocket(id));
-  };
-
-  // check if rocket is reserved
-  const { reserved } = rockets.find((rocket) => rocket.id === id);
-
+function Rocket({
+  id, rocket_name, description, image, reserve, cancel, isReserved,
+}) {
   return (
     <div className="rocket-card">
       <img src={image} alt={rocket_name} />
       <div className="rocket-info">
         <h2>{rocket_name}</h2>
         <>
-          {reserved ? (<p className="reserve">Reserved</p>) : null}
+          <p className="reserve">
+            {
+            isReserved ? 'Reserved' : 'Not reserved'
+          }
+          </p>
           {description}
         </>
-        {!rocket.reserved && (
-        <button type="button" className="reserved" onClick={reserve}>Reserve Rocket</button>
-        )}
-        {rocket.reserved && (
-        <button type="button" className="cancel" onClick={cancel}>Cancel Reservation</button>
-        )}
+        <div className="rocket-buttons">
+          {
+            isReserved ? (
+              <button type="button" className="cancel" onClick={() => cancel(id)}>Cancel Reservation</button>
+            ) : (
+              <button type="button" className="reserved" onClick={() => reserve(id)}>Reserve Rocket</button>
+            )
+          }
+        </div>
       </div>
     </div>
   );
 }
 
 Rocket.propTypes = {
-  rocket: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    rocket_name: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
-    reserved: PropTypes.bool,
-  }).isRequired,
+  id: PropTypes.number.isRequired,
+  rocket_name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  reserve: PropTypes.func.isRequired,
+  cancel: PropTypes.func.isRequired,
+  isReserved: PropTypes.bool.isRequired,
 };
 
 export default Rocket;

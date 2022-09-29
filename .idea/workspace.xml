@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5023418-ea16-4fa3-8abf-d0f63317e385" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/__tests__/Rocket.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rocket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rocket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Rockets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Rockets.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/__tests__" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664352152677</updated>
-      <workItem from="1664352154525" duration="16715000" />
+      <workItem from="1664352154525" duration="21930000" />
     </task>
     <servers />
   </component>
