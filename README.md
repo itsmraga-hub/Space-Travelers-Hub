@@ -74,9 +74,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@nii darku](https://)
-- Twitter: [@nii darku](https://)
-- LinkedIn: [@nii darku]()
+- GitHub: [@niicode](https://github.com/niicode)
+- Twitter: [@_niicode](https://twitter.com/_niicode)
 
 ## 🤝 Contributing
 
@@ -90,7 +89,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- SpaceX API.
+- SpaceX API
 - Microverse and the entire team.
 - Inspiration.
 - Learning/coding partner.
