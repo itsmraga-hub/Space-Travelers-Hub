@@ -25,9 +25,9 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route exact path="/rockets" element={<Rockets />} />
-        <Route exact path="missions" element={<Missions />} />
-        <Route exact path="my-profile" element={<Profile />} />
+        <Route exact path="/" element={<Rockets />} />
+        <Route exact path="/missions" element={<Missions />} />
+        <Route exact path="/my-profile" element={<Profile />} />
       </Routes>
     </div>
   );

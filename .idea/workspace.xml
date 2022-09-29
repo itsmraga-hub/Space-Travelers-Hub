@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5023418-ea16-4fa3-8abf-d0f63317e385" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rocket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rocket.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Rockets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Rockets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/css/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/css/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664352152677</updated>
-      <workItem from="1664352154525" duration="2221000" />
+      <workItem from="1664352154525" duration="4755000" />
     </task>
     <servers />
   </component>
