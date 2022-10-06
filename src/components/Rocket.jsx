@@ -39,7 +39,8 @@ Rocket.propTypes = {
   image: PropTypes.string.isRequired,
   reserve: PropTypes.func.isRequired,
   cancel: PropTypes.func.isRequired,
-  isReserved: PropTypes.bool.isRequired,
+  // eslint-disable-next-line react/require-default-props
+  isReserved: PropTypes.bool,
 };
 
 export default Rocket;

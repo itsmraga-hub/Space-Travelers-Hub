@@ -25,11 +25,7 @@ export const joinMission = (id) => ({
 const setReserved = (state, id) => {
   state.map((mission) => {
     if (mission.mission_id === id) {
-      if (mission.reserved) {
-        mission.reserved = false;
-      } else {
-        mission.reserved = true;
-      }
+      mission.reserved = !mission.reserved;
     }
     return mission;
   });
